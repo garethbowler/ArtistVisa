@@ -1,0 +1,275 @@
+p, ul, ol, li{
+	font-family: "lora regular";
+	font-size: 14px;
+	line-height: 20px;
+	
+}
+i b{
+	font-family: "lora bold italic";
+	font-size: 14px;
+}
+b{
+	font-family: 'lora bold';
+	font-weight: thin;
+}
+h6{
+	font-family: "lato black";
+	font-size: 14px;
+}
+span.sub-bold{
+	font-family: 'lato black';
+}
+span.body-bold{
+	font-weight: bolder;
+}
+.charticon{
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.animation{
+	margin-top: 75px;
+}
+.container-fluid{
+	position: relative;
+}
+#logo{
+	padding-top: 20px;
+}
+/*.affix{
+	padding: 9px 0;
+    min-width:300px;
+    margin-left: 8%;
+    margin-right: 70%;
+    z-index: 10;
+    left: 900px;	    
+}
+
+@media( max-width: 1200px){
+	.affix{	
+	    margin-left: -5%;
+	    margin-right: 90%; 
+	}
+}
+@media (max-width: 1060px){
+	.affix{
+	    margin-left: -15%;
+	    margin-right: 90%;
+	}
+}*/
+ul#sidebar-left{
+	/*position: absolute;
+	margin-top: 17%;
+	left: 15%;
+	z-index: 10;*/
+
+}
+ul#sidebar-left li{
+	padding-bottom: 15px;
+}
+#sidebar-left li a{
+
+	font-family: "lato light";
+	color: #58595B;
+	text-decoration: none;
+}
+#sidebar-left li a:hover{
+	font-family: "lato black";
+	color: #58595B;
+	text-decoration: none;
+}
+#sidebar-left li a:active{
+	font-family: "lato black";
+	color: #58595B;
+	text-decoration: none;
+}
+#sidebar-left li a:visited{
+	font-family: "lato black";
+	color: #58595B;
+	text-decoration: none;
+}
+.fixed{
+	position: fixed;
+}
+/*ul#sidebar-left .absolute{
+	position: absolute;
+	position: absolute;
+	margin-top: 17%;
+	left: 15%;
+	z-index: 10;
+}*/
+ul#nav{
+	list-style-type: none;
+	width: 410px;
+}
+#nav li{
+	display: inline;
+}
+#nav a{
+	padding-right: 40px;
+	color: #58595B;
+	font-size: 15px;
+	font-family: "lato black";
+	text-decoration: none;
+}
+#nav a.eric:hover{
+	color: #59AFC7;
+}
+#nav li.active a.eric{
+	color: #59AFC7;
+}
+#nav a.visa:hover{
+	color: #D9AA90;
+}
+#nav li.active a.visa{
+	color: #D9AA90;
+}
+#nav a.card:hover{
+	color: #47A77E;
+}
+#nav li.active a.card{
+	color: #47A77E;
+}
+/*nav li:hover{
+	background-color: #59AFC7;
+}*/
+
+.blue{
+	background-color: #59AFC7;
+	color: white;
+}
+.textBlue{
+	color: #59AFC7;
+}
+h1.textBlue, h1.textPeach, h1.textGreen{
+	font-size: 80px;
+	font-family: 'Lora Regular'
+}
+h4.textBlue, h4.textPeach, h4.textGreen{
+	font-size: 17px;
+	font-family: 'Lato Black'
+}
+.peach {
+	background-color: #d9aa90;
+	color: white;
+}
+.textPeach{
+	color: #d9aa90;
+}
+h2.textBlue, h2.textPeach, h2.textGreen{
+	font-family: 'Lora Regular';
+	font-size: 40px;
+}
+.green {
+	background-color: #47a77e;
+	color: white;
+}
+.textGreen{
+	color: #47a77e;
+}
+h2.textGreen{
+	font-family: 'Lora Regular';
+	font-size: 40px;
+}
+
+h5.textBlack{
+	font-family: "lora bold italic";
+	font-weight: bold;
+}
+
+.bar .panel-title{
+	color:white;
+	font-family: 'Lora Regular';
+	vertical-align: center;
+	
+}
+#accordion{
+	margin-top: 50px; 
+}
+.panel.panel-default{
+	border: none;
+}
+.bar{
+	vertical-align: center;
+}
+/*#accordion.panel-group{
+	padding: 15px;
+
+}*/
+@media(max-width: 990px){		
+	.bar .panel-title{
+		font-size: 40px;		
+	}
+
+	div.panel-title{
+		height: 46px;
+		/*padding-top: 5px;
+		padding-bottom: 5px;*/
+	}
+	h4.panel-title{
+		padding: 0px 75px 0px 75px;
+		margin-top: 0px;
+	}
+	#accordion.panel-group{
+	 	width: 100%;
+	}
+}
+@media(max-width: 768px){
+	.bar .panel-title{
+		font-size: 24px;
+	}
+	div.panel-title{
+		height: 30px;	
+	}
+	h4.panel-title{
+		padding-left: 20px;
+	}
+}
+
+.btn.btn-peach{
+	color: #d9aa90;
+	border: 2px solid #d9aa90;
+	border-radius: 0px;
+	padding: 10px 100px 10px 100px;
+
+}
+a.btn-peach{
+	font-family: 'Lato Black';
+}
+a.btn-peach:hover{
+
+}
+.btn.btn-green{
+	color: #47a77e;
+	border: 2px solid #47a77e;
+	border-radius: 0px;
+	padding: 10px 100px 10px 100px;
+}
+a.btn-green{
+	font-family: 'Lato Black';
+}
+a.btn-green:hover{
+
+}
+.btn.btn-blue{
+	color: #59AFC7;
+	border: 2px solid #59AFC7;
+	border-radius: 0px;
+	padding: 10px 100px 10px 100px;
+}
+a.btn-blue{
+	font-family: 'Lato Black';
+}
+.btn.btn-blue:hover{
+	background-color: #59AFC7;
+	color: white;
+}
+.no-bullets {
+	list-style-type: none;
+}
+
+.btn.btn-blue{
+	border: 2px solid #59AFC7;
+	border-radius: 0px;
+	color: #59AFC7;
+	padding: 10px 100px 10px 100px;
+}
