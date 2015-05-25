@@ -1,3 +1,4 @@
+
 p, ul, ol, li{
 	font-family: "lora regular";
 	font-size: 14px;
@@ -28,12 +29,17 @@ span.body-bold{
 }
 .animation{
 	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .container-fluid{
 	position: relative;
 }
+
 #logo{
 	padding-top: 20px;
+	padding-left: 20px;
 }
 /*.affix{
 	padding: 9px 0;
@@ -99,7 +105,8 @@ ul#sidebar-left li{
 }*/
 ul#nav{
 	list-style-type: none;
-	width: 410px;
+	margin-right: 5px;
+	width: 400px;
 }
 #nav li{
 	display: inline;
