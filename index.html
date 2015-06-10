@@ -33,38 +33,234 @@
 	<script src="js/javascript.js"></script>	 
 </head>
 <body>
-	<div id="top" class="container-fluid" onload="init">
-		<div class="row">
-			<div class="col-md-12 hidden-xs"><img id="logo" src="img/artistvisa-logo.png" alt=""></div>
-			
-			<!-- <div class="col-xs-12"> -->
-				<ul id="nav" class="pull-right">
-					<li class="active"><a href="index.html" class="eric">Eric Shaub</a></li>
-					<li><a href="0-1Visa.html" class="visa">0-1 Visa</a></li>
-					<li><a href="greenCard.html" class="card">Green Card</a></li>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="index.html"><img src="img/artistvisa-logo.png" alt="" class="img-responsive"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right" id="nav">
+	      	<li class="active"><a href="index.html" class="eric">ERIC SHAUB</a></li>
+			<li><a href="0-1Visa.html" class="visa">O-1 VISA</a></li>
+			<li><a href="greenCard.html" class="card">GREEN CARD</a></li>
+			<li class="dropdown hidden-xs hidden-sm">
+		      <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="dropdown-icon">i</span><!-- <b class="caret"></b> --></a>
+		    	<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+			        <li class="dropdown-submenu">
+	                	<a tabindex="-1" href="index.html">1.0 ERIC SHAUB</a>
+	                	<ul class="dropdown-menu">
+			                <li><a href="index.html#welcome">1.1.0 WELCOME</a></li>
+			                <li><a href="index.html#about">About Eric</a></li>
+			                <li><a href="index.html#press">Press Recognition</a></li>
+			                <li><a href="index.html#contact">Contact</a></li>
+			                <li><a href="index.html#charts">Charts</a></li>
+	                	</ul>
+	                </li>
+			      
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                	<a tabindex="-1" href="0-1Visa.html">O-1</a>
+	                	<ul class="dropdown-menu">
+	                		<li><a href="0-1Visa.html#steps">First Steps</a></li>
+	                		<li><a href="0-1Visa.html#apply">Who Can Apply?</a></li> 
+	                		<li><a href="0-1Visa.html#duration">Visa Duration</a></li> 
+	                		<li><a href="0-1Visa.html#petitioners">Petitioners</a></li>
+	                		<li><a href="0-1Visa.html#employers">Employers</a></li>
+	                		<li><a href="0-1Visa.html#agent">US Agent</a></li>             		
+	                		
+	                		<!-- <li><a href="0-1Visa.html#preparation">Preparations</a></li>
+	                		<li><a href="0-1Visa.html#">Considerations</a></li>
+	                		<li><a href="0-1Visa.html#">If So When?</a></li> -->
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                	<a tabindex="-1" href="0-1Visa.html#qualify">Who Qualifies</a>
+	                	<ul class="dropdown-menu">
+		                	
+		                	<li><a href="0-1Visa.html#awards">Awards</a></li>
+		                	<li><a href="0-1Visa.html#leading">Leading Role in Events</a></li>
+		                	<!-- <li><a href="">Peer Advisory</a></li> -->
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                 <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#preparations">Preparations</a>
+	                 	<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#preparation">Preparation of Petition</a></li>
+		                	<li><a href="0-1Visa.html#letters">Types of Letters</a></li>
+		                	<li><a href="0-1Visa.html#translations">Translations</a></li>
+		                	<li><a href="0-1Visa.html#next">Next Steps</a></li>
+		                	<li><a href="0-1Visa.html#processing">Consular Processing</a></li>
+		                	<li><a href="0-1Visa.html#after-issued">After Visa Issued </a></li>
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#considerations">Considerations</a>
+	                 	<ul class="dropdown-menu">
+		              		<li><a href="0-1Visa.html#change">Change of O-1 Status</a></li>
+		                	<li><a href="0-1Visa.html#trends">Trends</a></li>
+		                	<li><a href="0-1Visa.html#eligibility">Eligibility</a></li> 
+		                	<li><a href="0-1Visa.html#relatives">Relatives</a></li> 
+		                	<li><a href="0-1Visa.html#consular-shopping">Consular Shopping</a></li> 
+			            	<li><a href="0-1Visa.html#ssn">Social Security, Taxes</a></li> 
+			                <li><a href="0-1Visa.html#j-1">J-1 Visa Holders</a></li> 
+	                	</ul>
+	                </li>
+	              	<li class="divider"></li>
+	              	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#card-overview">Green Card Overview </a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#i-40">I-40 Petition</a></li>
+	              			<li><a href="greenCard.html#standard">Standard of Extraordinary Ability</a></li>
+	                		<li><a href="greenCard.html#evidence">Evidence of Extraordinary Ability</a></li>
+	              		</ul>
+	              	</li> 
+	              	<li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#doc">Initial Documentation</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#partA">Part A: 3 of 10 Categories</a></li>
+	                		<li><a href="greenCard.html#partB">Part B: Final Merits</a></li>
+	                		<li><a href="greenCard.html#partC">Part C: Future Offers</a></li>
+	              		</ul>
+	              	</li>  
+	              	<li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#ways">Ways To Proceed</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="greenCard.html#USCIS">Send file to USCIS </a></li>
+			                <li><a href="greenCard.html#adjustment">Adjustment of Status</a></li>
+			                <li><a href="greenCard.html#consular-processing">Consular Processing</a></li>
+	              		</ul>
+	              	</li>  
+	                
+	                <li class="divider"></li>
+	                
+			        
 				</ul>
-			<!-- </div> -->
-		</div>
-	</div>
-	<div class="row">
+			 </li>
+			 <li class="dropdown visible-xs visible-sm">
+		      <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="dropdown-icon">i</span><!-- <b class="caret"></b> --></a>
+		    	<ul id="dropdown-xs" class="dropdown-menu">
+
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="index.html">0.1 ERIC SHAUB</a>
+	              		<ul class="dropdown-menu">
+              			  	<!-- <li><a href="index.html">1.0 ERIC SHAUB </a></li> -->
+			            	<li><a href="index.html#collapseWelcome">1.1.0 WELCOME</a></li>
+			               	<li><a href="index.html#about-m">About Eric</a></li>
+			               	<li><a href="index.html#press-m">Press Recognition</a></li>
+			               	<li><a href="index.html#contact-m">Contact</a></li>
+			               	<li><a href="index.html#charts-m">Charts</a></li>
+	              		</ul>
+	              	</li>
+			      
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="0-1Visa.html#steps-m">O-1 First Steps</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="0-1Visa.html#apply-m">Who Can Apply?</a></li>
+	                		<li><a href="0-1Visa.html#duration-m">Visa Duration</a></li>
+	                		<li><a href="0-1Visa.html#petitioners-m">Petitioners</a></li>
+	               	 		<li><a href="0-1Visa.html#employers-m">Employers</a></li>
+	                		<li><a href="0-1Visa.html#agent-m">US Agent</a></li>
+	              		</ul>
+	              	</li>
+	              	<li class="divider"></li>
+	                	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="0-1Visa.html#qualify-m">Do you Qualify?</a>
+	              		<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#awards-m">Awards</a></li>
+		                	<li><a href="0-1Visa.html#leading-m">Leading Role in Events</a></li>
+		                	<!-- <li><a href="">Peer Advisory</a></li> -->
+	              		</ul>
+	              	</li>
+	              	<li class="divider"></li>
+	               <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#preparations">Preparations</a>
+	                 	<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#preparation-m">Preparation of Petition</a></li>
+		                	<li><a href="0-1Visa.html#letters-m">Types of Letters</a></li>
+		                	<li><a href="0-1Visa.html#translations-m">Translations</a></li>
+		                	<li><a href="0-1Visa.html#next-m">Next Steps</a></li>
+		                	<li><a href="0-1Visa.html#processing-m">Consular Processing</a></li>
+		                	<li><a href="0-1Visa.html#after-issued-m">After Visa Issued </a></li>
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#considerations-m">Considerations</a>
+	                 	<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#change-m">Change of O-1 Status</a></li>
+		                	<li><a href="0-1Visa.html#trends-m">Trends</a></li>
+		                	<li><a href="0-1Visa.html#eligibility-m">Eligibility</a></li> 
+		                	<li><a href="0-1Visa.html#relatives-m">Relatives</a></li> 
+		                	<li><a href="0-1Visa.html#consular-shopping-m">Consular Shopping</a></li> 
+			            	<li><a href="0-1Visa.html#ssn-m">Social Security, Taxes</a></li> 
+			                <li><a href="0-1Visa.html#j-1-m">J-1 Visa Holders</a></li>
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	              	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#card-overview-m">Green Card Overview </a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#i-40-m">I-40 Petition</a></li>
+	              			<li><a href="greenCard.html#standard-m">Standard of Extraordinary Ability</a></li>
+	                		<li><a href="greenCard.html#evidence-m">Evidence of Extraordinary Ability</a></li>
+	              		</ul>
+	              	</li> 
+	            	<li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#doc-m">Initial Documentation</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#partA-m">Part A: 3 of 10 Categories</a></li>
+	                		<li><a href="greenCard.html#partB-m">Part B: Final Merits</a></li>
+	                		<li><a href="greenCard.html#partC-m">Part C: Future Offers</a></li>
+	              		</ul>
+	              	</li>
+	              	<li class="divider"></li>
+	              	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#ways-m">Ways To Proceed</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="greenCard.html#USCIS-m">Send file to USCIS </a></li>
+			                <li><a href="greenCard.html#adjustment-m">Adjustment of Status</a></li>
+			                <li><a href="greenCard.html#consular-processing-m">Consular Processing</a></li>
+	              		</ul>
+	              	</li>  
+			        <li class="divider"></li>
+				</ul>
+			 </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div id="animation" class="row">
 		
-			<div id="Stage" class="EDGE-2115231 hidden-xs animation">
-			</div>
-		<img src="img/ERICCuadroAnimacion.jpg" class="img-responsive visible-xs" alt="">
+			<div id="Stage" class="EDGE-2115231 hidden-xs animation"></div>
+		
 	</div>
-	<div class="container-fluid">
-		<div class="col-xs-5 hidden-sm hidden-xs">
-			<ul id="sidebar-left" class="no-bullets">
-				<li><a href="#top">ERIC SHAUB</a></li>
-				<li><a href="#process">O-1 PROCESS</a></li>
-				<li><a href="#green-card">GREEN CARD PROCESS</a></li>
-			</ul>
-		</div>
+	<div class="col-xs-5 hidden-sm hidden-xs">
+		<ul id="sidebar-left" class="list-styles absolute">
+			<li><a href="#top">ERIC SHAUB</a></li>
+			<li><a href="#process">O-1 PROCESS</a></li>
+			<li><a href="#greenChart">GREEN CARD PROCESS</a></li>
+		</ul>
 	</div>
-	<div class="container">
+	<div id="top" class="container">
 		<div class="row">
 			<div class="col-md-9 col-md-offset-2 hidden-xs hidden-sm">
-				<h1 class="textBlue">Welcome</h1>
+				<h1 id="welcome"class="textBlue">Welcome</h1>
 				<p>
 					Eric Shaub is an attorney who works with foreign nationals in the artistic fields of fine art, design, illustration,architecture and music to get them working visas and permanent residence in the United States. Our clientele includes visual artists, graphic designers, curators, architects, musicians, writers, and commercial and fine art photographers. Since 1994 Eric has helped thousands of artists obtain visas to live and work in the United States.
 				</p>
@@ -74,8 +270,19 @@
 				<p>
 					Should you feel that you qualify for either option, please <a href="mailto:eshaub@artistvisa.com?subject=ArtistVisa.com" target="_blank">contact our office by email</a> to begin a dialogue.
 				</p>
+				<br>
+				<h4 class="textBlue">MISSION STATEMENT</h4>
+				<p>
+					Eric Shaub is an attorney who works with foreign nationals in the artistic fields of fine art, design, illustration, architecture and music to get them working visas and permanent residence in the United States. Our clientele includes visual artists, graphic designers, curators, architects, musicians, writers, and commercial and fine art photographers. Since 1994 Eric has helped thousands of artists obtain visas to live and work in the United States.
+				</p>
+				<p>
+					In this website we will describe the O1 visa, the nonimmigrant option for artists, which is often known to those in the arts as the "artist's visa".  We will also discuss the EB-1 category of immigrant visa (green card) based upon extraordinary ability. 
+				</p>
+				<p>
+					Should you feel that you qualify for either option, please contact our office by email to begin a dialogue.
+				</p>
 				<br>	
-				<h4 class="textBlue">ABOUT ERIC</h4>
+				<h4 id="about" class="textBlue">ABOUT ERIC</h4>
 				<p>
 				Eric Shaub graduated from Cornell University in 1988 and Syracuse University College of Law in 1993. He is a member of the
 				New York State Bar as well as the Federal Bar. While his clients are often individual artists who are trying to find a way to live
@@ -86,26 +293,34 @@
 				Asia, Australia and South America. With Skype calls and reduced communication expenses clients can be half way around the
 				world and still speak to Eric as if they were across the street.</p>
 				<br>
-				<h4 class="textBlue">PRESS</h4>
+				<h4 id="press" class="textBlue">PRESS</h4>
 				<p>
+					(Modern Painters)
 				</p>
-				<h4 class="textBlue">CONTACT</h4>
+				<p>
+					<a href="http://www.bloomberg.com/bw/stories/2009-05-17/immigration-when-only-geniuses-need-applybusinessweek-business-news-stock-market-and-financial-advice">
+					http://www.bloomberg.com/bw/stories/2009-05-17/immigration-when-only-geniuses-need-applybusinessweek-business-news-stock-market-and-financial-advice
+					</a>
+				</p>
+				
+				<h4 id="contact" class="textBlue">CONTACT</h4>
 				<p>
 				Please feel free to contact Eric Shaub’s law firm by email at <a href="mailto:eshaub@artistvisa.com?subject=ArtistVisa.com" target="_blank">eshaub@artistvisa.com</a></p>
 
 			</div>
 		</div>
 	</div>
-	<div class="container visible-md visible-lg">
+	<div id="charts" class="container visible-md visible-lg relative">
 		<div class="col-xs-11 col-md-offset-1">
 			<div class="col-md-6">
 				<h2 id="process" class="textPeach text-center">O-1 Process</h2>
-				<img src="charts/petitioner.png" class="img-responsive" alt="">
-				<img src="charts/o1process.png" alt="" class="img-responsive">
+				<a href="0-1Visa.html#employers"><img id="blueChart" src="charts/petitioner.png" class="img-responsive" alt=""></a>
+				
+				<a href="0-1Visa.html#next"><img id="peachChart" src="charts/o1process.png" alt="" class="img-responsive"></a>
 			</div>
 			<div class="col-md-6">
 				<h2 class="textGreen text-center">Green Card Process</h2>
-				<img src="charts/greencard-open.png" alt="" id="green-card" class="img-responsive">
+				<a href="greenCard.html#green-charticon"><img id="greenChart" src="charts/greencard-open.png" alt="" id="green-card" class="img-responsive"></a>
 			</div>
 		</div>
 	</div>
@@ -125,6 +340,8 @@
 			    	</div>
 			    	<div id="collapseWelcome" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 				    	<div class="panel-body">
+				    		<div id="animation-m"></div>
+				    		<img src="img/ERICCuadroAnimacion.jpg" alt="" class="visible-xs img-responsive">
 				    		<div class="container">
 								<p>
 									Eric Shaub is an attorney who works with foreign nationals in the artistic fields of fine art, design, illustration,architecture and music to get them working visas and permanent residence in the United States. Our clientele includes visual artists, graphic designers, curators, architects, musicians, writers, and commercial and fine art photographers. Since 1994 Eric has helped thousands of artists obtain visas to live and work in the United States.
@@ -136,7 +353,7 @@
 									Should you feel that you qualify for either option, please <a href="mailto:eshaub@artistvisa.com?subject=ArtistVisa.com" target="_blank">contact our office by email</a> to begin a dialogue.
 								</p>
 								<br>	
-								<h4 class="textBlue">ABOUT ERIC</h4>
+								<h4 id="about-m" class="textBlue">ABOUT ERIC</h4>
 								<p>
 								Eric Shaub graduated from Cornell University in 1988 and Syracuse University College of Law in 1993. He is a member of the
 								New York State Bar as well as the Federal Bar. While his clients are often individual artists who are trying to find a way to live
@@ -147,10 +364,16 @@
 								Asia, Australia and South America. With Skype calls and reduced communication expenses clients can be half way around the
 								world and still speak to Eric as if they were across the street.</p>
 								<br>
-								<h4 class="textBlue">PRESS</h4>
+								<h4 id="press-m" class="textBlue">PRESS</h4>
 								<p>
+									(Modern Painters)
 								</p>
-								<h4 class="textBlue">CONTACT</h4>
+								<p>
+									<a href="http://www.bloomberg.com/bw/stories/2009-05-17/immigration-when-only-geniuses-need-applybusinessweek-business-news-stock-market-and-financial-advice">
+									http://www.bloomberg.com/bw/stories/2009-05-17/immigration-when-only-geniuses-need-applybusinessweek-business-news-stock-market-and-financial-advice
+									</a>
+								</p>
+								<h4 id="contact-m" class="textBlue">CONTACT</h4>
 								<p>
 								Please feel free to contact Eric Shaub’s law firm by email at <a href="mailto:eshaub@artistvisa.com?subject=ArtistVisa.com" target="_blank">eshaub@artistvisa.com</a></p>
 							</div>
@@ -170,17 +393,17 @@
 			    	<div id="collapseProcess" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 				    	<div class="panel-body">
 				    		<div class="container">
-				    			<div class="col-xs-10 text-center">
-					    			<img src="charts/petitioner.png" class="img-responsive" alt="">
-									<img src="charts/o1process.png" alt="" class="img-responsive">
+				    			<div id="charts-m" class="col-xs-12 text-center">
+					    			<a href="0-1Visa.html#employers-m"><img id="blueChart-m" src="charts/petitioner.png" class="img-responsive" alt=""></a>
+									<a href="0-1Visa.html#next-m"><img id="peachChart-m" src="charts/o1process.png" alt="" class="img-responsive"></a>
 								</div>
 							</div>
 				      	</div>
 			    	</div>
 				</div>
 				<div class="panel panel-default">
-					<div class="green">
-						<a class="collapsed bar" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+					<div id="greenCardProcees-m" class="green">
+						<a class="collapsed bar" data-toggle="collapse" data-parent="#accordion" href="#collapseGreenCard" aria-expanded="true" aria-controls="collapseGreenCard">
 						    <div class="panel-heading" role="tab" id="headingThree">
 						      <h4 class="panel-title">   
 						          Green Card Process		        
@@ -188,10 +411,10 @@
 						    </div>
 						</a>
 			    	</div>
-			    	<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+			    	<div id="collapseGreenCard" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 				    	<div class="panel-body">
 				    		<div class="container">
-								<img src="charts/greencard-open.png" alt="" class="img-responsive">
+								<a href="greenCard.html#EB-1-m"><img id="greenChart-m" src="charts/greencard-open.png" alt="" class="img-responsive"></a>
 							</div>
 				      	</div>
 			    	</div>

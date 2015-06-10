@@ -20,25 +20,223 @@
 	<script src="js/javascript.js"></script>	 
 </head>
 <body>
-	<div id="top" class="container-fluid" onload="init">
-		<div class="row">
-			<div class="col-md-10 hidden-xs"><img id="logo" src="img/artistvisa-logo.png" alt=""></div>
-			
-			<!-- <div class="col-xs-12"> -->
-				<ul id="nav" class="pull-right">
-					<li ><a href="index.html" class="eric">Eric Shaub</a></li>
-					<li><a href="0-1Visa.html" class="visa">0-1 Visa</a></li>
-					<li class="active"><a href="greenCard.html" class="card">Green Card</a></li>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span> 
+	      </button>
+	      <a class="navbar-brand" href="index.html"><img src="img/artistvisa-logo.png" alt="" class="img-responsive"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav navbar-right" id="nav">
+	      	<li><a href="index.html" class="eric">ERIC SHAUB</a></li>
+			<li><a href="0-1Visa.html" class="visa">O-1 VISA</a></li>
+			<li class="active"><a href="greenCard.html" class="card">GREEN CARD</a></li>
+			<li class="dropdown hidden-xs hidden-sm">
+		      <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="dropdown-icon">i</span><!-- <b class="caret"></b> --></a>
+		    	<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+			        <li class="dropdown-submenu">
+	                	<a tabindex="-1" href="index.html">1.0 ERIC SHAUB</a>
+	                	<ul class="dropdown-menu">
+			                <li><a href="index.html#welcome">1.1.0 WELCOME</a></li>
+			                <li><a href="index.html#about">About Eric</a></li>
+			                <li><a href="index.html#press">Press Recognition</a></li>
+			                <li><a href="index.html#contact">Contact</a></li>
+			                <li><a href="index.html#charts">Charts</a></li>
+	                	</ul>
+	                </li>
+			      
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                	<a tabindex="-1" href="0-1Visa.html">O-1</a>
+	                	<ul class="dropdown-menu">
+	                		<li><a href="0-1Visa.html#steps">First Steps</a></li>
+	                		<li><a href="0-1Visa.html#apply">Who Can Apply?</a></li> 
+	                		<li><a href="0-1Visa.html#duration">Visa Duration</a></li> 
+	                		<li><a href="0-1Visa.html#petitioners">Petitioners</a></li>
+	                		<li><a href="0-1Visa.html#employers">Employers</a></li>
+	                		<li><a href="0-1Visa.html#agent">US Agent</a></li>             		
+	                		
+	                		<!-- <li><a href="0-1Visa.html#preparation">Preparations</a></li>
+	                		<li><a href="0-1Visa.html#">Considerations</a></li>
+	                		<li><a href="0-1Visa.html#">If So When?</a></li> -->
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                	<a tabindex="-1" href="0-1Visa.html#qualify">Who Qualifies</a>
+	                	<ul class="dropdown-menu">
+		                	
+		                	<li><a href="0-1Visa.html#awards">Awards</a></li>
+		                	<li><a href="0-1Visa.html#leading">Leading Role in Events</a></li>
+		                	<!-- <li><a href="">Peer Advisory</a></li> -->
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                 <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#preparations">Preparations</a>
+	                 	<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#preparation">Preparation of Petition</a></li>
+		                	<li><a href="0-1Visa.html#letters">Types of Letters</a></li>
+		                	<li><a href="0-1Visa.html#translations">Translations</a></li>
+		                	<li><a href="0-1Visa.html#next">Next Steps</a></li>
+		                	<li><a href="0-1Visa.html#processing">Consular Processing</a></li>
+		                	<li><a href="0-1Visa.html#after-issued">After Visa Issued </a></li>
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#considerations">Considerations</a>
+	                 	<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#change">Change of O-1 Status</a></li>
+		                	<li><a href="0-1Visa.html#trends">Trends</a></li>
+		                	<li><a href="0-1Visa.html#eligibility">Eligibility</a></li> 
+		                	<li><a href="0-1Visa.html#relatives">Relatives</a></li> 
+		                	<li><a href="0-1Visa.html#consular-shopping">Consular Shopping</a></li> 
+			            	<li><a href="0-1Visa.html#ssn">Social Security, Taxes</a></li> 
+			                <li><a href="0-1Visa.html#j-1">J-1 Visa Holders</a></li>
+	                	</ul>
+	                </li>
+	              	<li class="divider"></li>
+	              	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#card-overview">Green Card Overview </a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#i-40">I-40 Petition</a></li>
+	              			<li><a href="greenCard.html#standard">Standard of Extraordinary Ability</a></li>
+	                		<li><a href="greenCard.html#evidence">Evidence of Extraordinary Ability</a></li>
+	              		</ul>
+	              	</li> 
+	              	<li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#doc">Initial Documentation</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#partA">Part A: 3 of 10 Categories</a></li>
+	                		<li><a href="greenCard.html#partB">Part B: Final Merits</a></li>
+	                		<li><a href="greenCard.html#partC">Part C: Future Offers</a></li>
+	              		</ul>
+	              	</li>  
+	              	<li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#ways">Ways To Proceed</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="greenCard.html#USCIS">Send file to USCIS </a></li>
+			                <li><a href="greenCard.html#adjustment">Adjustment of Status</a></li>
+			                <li><a href="greenCard.html#consular-processing">Consular Processing</a></li>
+	              		</ul>
+	              	</li>  
+	                
+	                <li class="divider"></li>
+	                
+			        
 				</ul>
-			<!-- </div> -->
-		</div>
-	</div>
-	<div class="row">
-		
+			 </li>
+			 <li class="dropdown visible-xs visible-sm">
+		      <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="dropdown-icon">i</span><!-- <b class="caret"></b> --></a>
+		    	<ul class="dropdown-menu">
+
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="index.html">0.1 ERIC SHAUB</a>
+	              		<ul class="dropdown-menu">
+			            	<li><a href="index.html#collapseWelcome">1.1.0 WELCOME</a></li>
+			               	<li><a href="index.html#about-m">About Eric</a></li>
+			               	<li><a href="index.html#press-m">Press Recognition</a></li>
+			               	<li><a href="index.html#contact-m">Contact</a></li>
+			               	<li><a href="index.html#charts-m">Charts</a></li>
+	              		</ul>
+	              	</li>
+			      
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="0-1Visa.html#steps-m">O-1 First Steps</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="0-1Visa.html#apply-m">Who Can Apply?</a></li>
+	                		<li><a href="0-1Visa.html#duration-m">Visa Duration</a></li>
+	                		<li><a href="0-1Visa.html#petitioners-m">Petitioners</a></li>
+	               	 		<li><a href="0-1Visa.html#employers-m">Employers</a></li>
+	                		<li><a href="0-1Visa.html#agent-m">US Agent</a></li>
+	              		</ul>
+	              	</li>
+	              	<li class="divider"></li>
+	                	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="0-1Visa.html#qualify-m">Do you Qualify?</a>
+	              		<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#awards-m">Awards</a></li>
+		                	<li><a href="0-1Visa.html#leading-m">Leading Role in Events</a></li>
+		                	<!-- <li><a href="">Peer Advisory</a></li> -->
+	              		</ul>
+	              	</li>
+	              	<li class="divider"></li>
+	               <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#preparations">Preparations</a>
+	                 	<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#preparation-m">Preparation of Petition</a></li>
+		                	<li><a href="0-1Visa.html#letters-m">Types of Letters</a></li>
+		                	<li><a href="0-1Visa.html#translations-m">Translations</a></li>
+		                	<li><a href="0-1Visa.html#next-m">Next Steps</a></li>
+		                	<li><a href="0-1Visa.html#processing-m">Consular Processing</a></li>
+		                	<li><a href="0-1Visa.html#after-issued-m">After Visa Issued </a></li>
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	                <li class="dropdown-submenu">
+	                 	<a tabindex="-1" href="0-1Visa.html#considerations-m">Considerations</a>
+	                 	<ul class="dropdown-menu">
+		                	<li><a href="0-1Visa.html#change-m">Change of O-1 Status</a></li>
+		                	<li><a href="0-1Visa.html#trends-m">Trends</a></li>
+		                	<li><a href="0-1Visa.html#eligibility-m">Eligibility</a></li> 
+		                	<li><a href="0-1Visa.html#relatives-m">Relatives</a></li> 
+		                	<li><a href="0-1Visa.html#consular-shopping-m">Consular Shopping</a></li>
+			            	<li><a href="0-1Visa.html#ssn-m">Social Security, Taxes</a></li> 
+			                <li><a href="0-1Visa.html#j-1-m">J-1 Visa Holders</a></li>
+	                	</ul>
+	                </li>
+	                <li class="divider"></li>
+	              	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#card-overview-m">Green Card Overview </a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#i-40-m">I-40 Petition</a></li>
+	              			<li><a href="greenCard.html#standard-m">Standard of Extraordinary Ability</a></li>
+	                		<li><a href="greenCard.html#evidence-m">Evidence of Extraordinary Ability</a></li>
+	              		</ul>
+	              	</li> 
+	            	<li class="divider"></li>
+	                <li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#doc-m">Initial Documentation</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="#"></a></li>
+	              			<li><a href="greenCard.html#partA-m">Part A: 3 of 10 Categories</a></li>
+	                		<li><a href="greenCard.html#partB-m">Part B: Final Merits</a></li>
+	                		<li><a href="greenCard.html#partC-m">Part C: Future Offers</a></li>
+	              		</ul>
+	              	</li>
+	              	<li class="divider"></li>
+	              	<li class="dropdown-submenu">
+	              		<a tabindex="-1" href="greenCard.html#ways-m">Ways To Proceed</a>
+	              		<ul class="dropdown-menu">
+	              			<li><a href="greenCard.html#USCIS-m">Send file to USCIS </a></li>
+			                <li><a href="greenCard.html#adjustment-m">Adjustment of Status</a></li>
+			                <li><a href="greenCard.html#consular-processing-m">Consular Processing</a></li>
+	              		</ul>
+	              	</li>  
+			        <li class="divider"></li>
+				</ul>
+			 </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="row hidden-xs hidden-sm">
+		<img src="img/PapelesCajasCarpetas.png" alt="" class="greenCardImg img-responsive">
 	</div>
 	<div class="container-fluid">
 		<div class="col-xs-6 hidden-sm hidden-xs">
-			<ul id="sidebar-left" class="no-bullets">
+			<ul id="sidebar-left" class="list-styles">
 				<li><a href="#top">OVERVIEW</a></li>
 				<li><a href="#doc">INITIAL <br>DOCUMENTATION</a></li>
 				<li><a href="#ways">WAYS TO PROCEED</a></li>
@@ -46,10 +244,10 @@
 			</ul>
 		</div>
 	</div>
-	<div class="container">
+	<div id="top" class="container">
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
-				<h1 class="textGreen">Green Card</h1>
+				<h1 id="card-overview" class="textGreen">Green Card</h1>
 				<br>
 			</div>
 			<div class="col-md-9 col-md-offset-2 hidden-xs hidden-sm">
@@ -62,7 +260,7 @@
 					</p>
 					<br>
 				
-					<h4 class="textGreen">EB-1 <img src="Icons/charticon-green.png" class="charticon" alt=""></h4>
+					<h4 id="green-charticon" class="textGreen">EB-1 <a href="index.html#greenChart"><img src="Icons/charticon-green.png" class="charticon" alt=""></h4></a>
 					<p>
 						The EB-1 has two parts. The first part is always the same. It is called the I-140 or immigrant petition. The second part applies only if the first part is approved. Once the I-140 is approved the alien can either apply to adjust their status in the US, or they can apply to have an interview at a US Consulate. There are pros and cons for each option. Part I: The I-140 petition is necessary for preliminary approval. Part II: After the I-140 is approved the alien will obtain permanent residency one of two ways; Adjustment of Status or Consular Processing.
 					</p>
@@ -75,7 +273,7 @@
 						Unlike Aliens in the Arts in O-1 status, a job offer is not required, and it is possible for a foreign national to submit a petition for a green card on her own behalf. However, she must intend to come to the United States to continue working in his or her field of extraordinary ability. For example, if a foreign national submits evidence to USCIS establishing that she is an internationally acclaimed curator, she must intend to continue to work as a curator once in the USA as an LPR.
 					</p>
 					<br>
-					<h4 class="textGreen">STANDARD</h4>
+					<h4 id="standard" class="textGreen">STANDARD</h4>
 					<i><b>Standard of extraordinary ability</b></i>
 					<p>
 						The standard to qualify for a green card based on extraordinary ability are higher than those for an O-1 visa. <br>
@@ -83,7 +281,7 @@
 						Moreover, a green card applicant must demonstrate that he or she attained a “level of expertise indicating that the individual is one of those few who have risen to the top” of the field of endeavor. <br>
 					</p>
 					<br>
-					<h4 class="textGreen">EVIDENCE</h4>
+					<h4 id="evidence" class="textGreen">EVIDENCE</h4>
 					<i><b>Evidence of Extraordinary Ability</b></i>
 					<br>
 					<p>
@@ -99,14 +297,14 @@
 						If a petitioner has submitted the requisite evidence, USCIS determines whether the evidence demonstrates both a <i><b>“level of expertise indicating that the individual is one of that small percentage who have risen to the very top of the[ir] field of endeavor,” </b></i>8 C.F.R. § 204.5(h)(2), and  <i><b>“that the alien has sustained national or international acclaim and that his or her achievements have been recognized in the field of expertise.”</b></i> 8 C.F.R. § 204.5(h)(3). Only aliens whose achievements have garnered “sustained national or international acclaim” are eligible for an “extraordinary ability” visa. 8 U.S.C. § 1153(b)(1)(A)(i).
 					</p>
 					<br>
-					<h2 id="doc"class="textGreen">Initial Documentation</h2>
+					<h2 id="doc" class="textGreen">Initial Documentation</h2>
 					<br>
 					<h5><i><b>Part I: The I-140 petition summary</b></i></h5>
 					<p>
 						The I-140 requires that the alien satisfy all three of the following:
 						<br>
 						<br>
-						<ul class="no-bullets">
+						<ul class="list-styles">
 							<li><span class="sub-bold">SUBPART A:</span> The alien must demonstrate that they have won a major international prize such as a Nobel Prize or else successfully prove that they satisfy three of ten categories of criteria.</li>
 							<br>
 							<li><span class="sub-bold">SUBPART B: </span>The Alien must have substantial evidence about their career so that USCIS can make a determination about their application. The USCIS review is called the Final Merits Determination. USCIS will review all of the evidence in the record in its totality from Part A to determine if it is more likely than not that the alien has sustained national or international acclaim and is one of that small percentage who has risen to the very top of the field of endeavor.</li>
@@ -115,13 +313,13 @@
 						</ul>
 					</p>
 					<br>
-					<h4 class="textGreen">PART A (3 OF 10)</h4>
-					<h5> <i> <b>I-40 Subpart A</b> </i> </h5>
+					<h4 id="partA" class="textGreen">PART A: (3 OF 10)</h4>
+					<h5 id="i-40"> <i> <b>I-40 Subpart A:</b> </i> </h5>
 					<p>
 						The first part of the test would require the applicant to be either the winner of a major international award such as a Nobel Prize, or she should provide documentation of three of the following ten categories to document Extraordinary Ability.
 						<br>
 						<br>
-						<ul class="no-bullets">
+						<ul class="list-styles">
 								<li>
 									<span class="sub-bold">i. LESSER PRIZES OF AWARDS</span>
 									<br>
@@ -199,13 +397,14 @@
 						<b>If the above standards do not readily apply to the beneficiary's occupation, the petitioner may submit comparable evidence to establish the beneficiary's eligibility. </b>The adjudicative trend is that immigration will not give weight to this category unless the occupation does not suit itself to the above ten categories.
 					</p>
 					<br>
-					<h4 class="textGreen">PART B THE FINAL MERITS DETERMINATION</h4>
+					<h4 id="partB" class="textGreen">PART B: THE FINAL MERITS DETERMINATION</h4>
 					<i><b>I-140 Part B: The Final Merits Determination</b></i>
 					<br>
 					<p>
 						If you are able to show that you meet at least 3 of the above regulatory criteria, USCIS will then review all of the evidence in the record in its totality to determine if it is more likely than not that you have sustained national or international acclaim and are one of that small percentage who has risen to the very top of the field of endeavor. To satisfy the Final Merits Determination the alien should put their best application together so that immigration can review all of the evidence and approve the case. This part is relatively subjective and USCIS has great discretion in determining whether an alien is successful. The stronger the evidence is in terms of an alien’s achievements in the field compared to others, the more efficiently and accurately USCIS can process the petition. Ultimately it is this risk of failing the Final Merits Determination that can foil what would otherwise be a successful application. To some extent a letter or memo from the attorney can help explain why the alien qualifies to be approved. Realistically, however, the alien should understand that there is risk in this type of application and that even if they feel they clearly qualify in the I-140 part A they nevertheless could be unsuccessful in Part B.
 					</p>
-					<h4 class="textGreen">PART C: FUTURE OFFERS I-140</h4>
+					<br>
+					<h4 id="partC" class="textGreen">PART C: FUTURE OFFERS I-140</h4>
 					<p>
 						The alien must prove they are coming to the US to continue to work in their field and that they will not become a public charge.
 					</p>
@@ -215,7 +414,7 @@
 					<br>
 					<h2 id="ways" class="textGreen">Ways To Proceed</h2>
 					<br>
-					<h4 class="textGreen">SEND FILE TO USCIS</h4>
+					<h4 id="USCIS" class="textGreen">SEND FILE TO USCIS</h4>
 					<i><b>Sending the file to USCIS</b></i>
 					<p>
 						When USCIS receives the file they will either approve the application, deny the application or ask for more information so that they can either approve or deny the application. The request for more information is called Request for Evidence. If the application is approved the applicant can continue to the second part of the application.
@@ -226,7 +425,8 @@
 					<p>
 						After the I-140 is approved the alien will obtain permanent residency one of two ways: Adjustment of Status or Consular Processing
 					</p>
-					<h4 class="textGreen">ADJUSTMENT OF STATUS</h4>
+					<br>
+					<h4 id="adjustment" class="textGreen">ADJUSTMENT OF STATUS</h4>
 					<p>
 						Adjustment of Status requires that the alien file the application while they are in the United States in valid non-immigrant status. That means you have to have an unexpired non-immigrant visa in order to file. If that is the case and you have an approved I-140 you should gather evidence that you always complied with your non-immigrant status. This means that for former students you must hold copies of all of your I-20s. If you had other visas such as O-1 visas you should have copies of all approval notices and all prior visas. The law allows adjustment of status when the applicant has never been out of status for even one day. It may be possible that a person is in valid O1 status but that at some point in the past they stayed in the US longer then they were allowed or had another type of status violation. Unless an applicant can document their entire O-1 status it is the opinion of this firm that they can suffer severe delays in finishing up the O1 process and in fact the process can ultimately be denied. Applicants who have been in the US for many years or for those that have not kept copies of all of their immigration paperwork should not attempt Adjustment of Status but should instead seek to process the second part of their visa at their home consulate. <br>
 						An advantage of Adjustment of Status is that once the applicant files to adjust their status they no longer have their former status and now have the new status called “Pending Adjustment of Status.” So, for example, if an applicant has an O-1 visa that is expiring in March and they file their application a month earlier, in February, then they would not need to renew their O-1 visa status so long as they filed in a timely manner.
@@ -234,18 +434,18 @@
 						When an applicant files adjustment of status they file three applications. One application is called the application to adjust status. This is called the I-485. The other applications are called application for employment authorization I-765 and application for advanced parole I-131. Once these additional applications are processed the applicant will be free to travel outside of the US and work in the US for whomever they would like. Note that until the advanced parole card is received the applicant cannot travel outside of the US. If the applicant leaves the US before they receive their advanced parole document their application is considered abandoned. Note as well that there is a black out period of anywhere from 3-6 months from when an applicant filed their adjustment of status before they can normally travel. Thus applicants who have extensive travel commitments, or those who have relatives in poor health should not apply for adjustment of status but should instead apply for consular processing.
 					</p>
 					<br>
-					<h4 class="textGreen">CONSULAR PROCESSING (GREEN CARD)</h4>
+					<h4 id="consular-processing" class="textGreen">CONSULAR PROCESSING (GREEN CARD)</h4>
 					<i><b>Consular Processing</b></i>
 					<p>
 						The second option for finishing the green card process is called Consular Processing. The end result is an interview at the US Consulate in the home country of the applicant. Note that there is generally only one consulate per country that handles the applications. So, for example, in Germany all interviews are held in Frankfurt for immigrant visas. The process is as follows: After the approval of the I-140 (the first part of the application) USCIS will forward the application to the National Visa Center. The timing of this can range from one to three months but can take longer. After the National Visa Center receives the application they will make a fee request by email. The applicant will pay that fee from their bank account and can then move on to the next phase, which is submitting their DS-260 consular form and their civil documents. The civil documents will include documents such as: birth certificates, marriage certificates, divorce decrees, the birth certificates of any children, a copy of their passport biographical (photo) page as well as any evidence of military service. If the applicant has ever been arrested they will need evidence of the disposition of the arrest.
-						<br>
+						<br><br>
 						After submitting the civil documents and forms DS-260 the National Visa Center has to complete their processing and when the processing is complete they will notify the Consulate to schedule the interview. In general the processing time from USCIS approval of the I-140 until the immigrant interview is normally within the range of 6-8 months. The timing of receiving an immigrant visa after an interview can depend from consulate to consulate and is often a week after the interview. Once the applicant receives their immigrant visa they will pay an additional fee called the ELIS fee. This should be paid before the applicant enters the US. When the consulate issues the visa they also send out a sealed envelope. The applicant will take the unopened sealed envelope with the immigrant visa and will present that to the US CIS officer in the US. That officer will update the computer and stamp the passport. At that point the immigrant is a permanent resident of the US. The green card is only evidence of the status that has already been received. The card is sent in the mail often a month or so after entry into the US.
 						One advantage of consular processing is that the timing is very predicable and is not often longer than that timeline. As opposed to adjustment of status, which can be 4 months but can be more than three years or longer on occasion, the consular processing timeline is very consistent.
-						<br>
+						<br><br>
 						It should be noted that for consular processing the applicant must maintain non-immigrant visa status until they leave the US to have their immigrant interview. An applicant can travel freely in and out of the United States so long as their current non-immigrant visa allows it, but the only time the benefit of this application accrues to an applicant is after the applicant returns as permanent resident. So, for example, an O-1 visa holder who has not yet been scheduled for their final interview may be faced with either extending their O1 visa in the US to maintain their status, or, in some instances, leaving the US to obtain one more O1 visa even though they might to scheduled for their immigrant visas a few months later. Under that scenario, an applicant can choose to move their immigrant visa interview at a later date, such as 6 months later.
-						<br>
+						<br><br>
 						Medical Exam: If the applicant is filing by adjustment of status they must have a medical exam from a Civil Surgeon on the approved list of USCIS. The medical exam will make sure the applicant is healthy and does not have an infectious disease. The doctor will give the applicant inoculations unless they can prove that they have already received the inoculations on the US CIS list.
-						<br>
+						<br><br>
 						If the applicant applies for consular processing the medical exam must take place before the interview. Depending upon the applicant’s travel plans they would need to have the medical exam on a prior trip to their country or they will need to travel to the country with enough time to process the medical exam before the interview.
 					</p>
 			</div>
@@ -271,7 +471,7 @@
 					<div class="green">
 						<a class="collapsed bar" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 						    <div class="panel-heading" role="tab" id="headingOne">
-						      <h4 class="panel-title">   
+						      <h4 id="overview-m" class="panel-title">   
 						          Overview		        
 						      </h4>
 						    </div>
@@ -280,6 +480,9 @@
 			    	<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 				    	<div class="panel-body">
 				    		<div class="container">
+				    			<img src="img/PapelesCajasCarpetas.png" alt="" class="greenCardImg img-responsive">
+								
+								<br>
 								<i><b>Legal Permanent Residency</b></i>
 								<p>
 									A green card holder is known as a Legal Permanent Resident (LPR) and has lawful immigrant status to reside in the United States.
@@ -289,20 +492,20 @@
 								</p>
 								<br>
 							
-								<h4 class="textGreen">EB-1                                <img src="Icons/charticon-green.png" class="charticon" alt=""></h4> 
+								<h4 id="EB-1-m" class="textGreen">EB-1<a href="index.html#greenChart-m"><img src="Icons/charticon-green.png" class="charticon" alt=""></h4></a> 
 								<p>
 									The EB-1 has two parts. The first part is always the same. It is called the I-140 or immigrant petition. The second part applies only if the first part is approved. Once the I-140 is approved the alien can either apply to adjust their status in the US, or they can apply to have an interview at a US Consulate. There are pros and cons for each option. Part I: The I-140 petition is necessary for preliminary approval. Part II: After the I-140 is approved the alien will obtain permanent residency one of two ways; Adjustment of Status or Consular Processing.
 								</p>
 								<br>
 						
-								<h4 class="textGreen">I-140 PETITION</h4>
+								<h4 id="i-40-m" class="textGreen">I-140 PETITION</h4>
 								<i><b>Part I: the I-140 petition</b></i>
 								<p>
 									Extraordinary ability workers in the arts must demonstrate through evidence that already exists that they have achieved “sustained national or international acclaim” in their field of expertise, and that if they obtain LPR status in the United States that their work will substantially benefit the United States in the future. <br>
 									Unlike Aliens in the Arts in O-1 status, a job offer is not required, and it is possible for a foreign national to submit a petition for a green card on her own behalf. However, she must intend to come to the United States to continue working in his or her field of extraordinary ability. For example, if a foreign national submits evidence to USCIS establishing that she is an internationally acclaimed curator, she must intend to continue to work as a curator once in the USA as an LPR.
 								</p>
 								<br>
-								<h4 class="textGreen">STANDARD</h4>
+								<h4 id="standard-m" class="textGreen">STANDARD</h4>
 								<i><b>Standard of extraordinary ability</b></i>
 								<p>
 									The standard to qualify for a green card based on extraordinary ability are higher than those for an O-1 visa. <br>
@@ -310,7 +513,7 @@
 									Moreover, a green card applicant must demonstrate that he or she attained a “level of expertise indicating that the individual is one of those few who have risen to the top” of the field of endeavor. <br>
 								</p>
 								<br>
-								<h4 class="textGreen">EVIDENCE</h4>
+								<h4 id="evidence-m" class="textGreen">EVIDENCE</h4>
 								<i><b>Evidence of Extraordinary Ability</b></i>
 								<br>
 								<p>
@@ -347,7 +550,7 @@
 						The I-140 requires that the alien satisfy all three of the following:
 						<br>
 						<br>
-						<ul class="no-bullets">
+						<ul class="list-styles">
 							<li><span class="sub-bold">SUBPART A:</span> The alien must demonstrate that they have won a major international prize such as a Nobel Prize or else successfully prove that they satisfy three of ten categories of criteria.</li>
 							<br>
 							<li><span class="sub-bold">SUBPART B: </span>The Alien must have substantial evidence about their career so that USCIS can make a determination about their application. The USCIS review is called the Final Merits Determination. USCIS will review all of the evidence in the record in its totality from Part A to determine if it is more likely than not that the alien has sustained national or international acclaim and is one of that small percentage who has risen to the very top of the field of endeavor.</li>
@@ -356,13 +559,13 @@
 						</ul>
 					</p>
 					<br>
-					<h4 class="textGreen">PART A (3 OF 10)</h4>
-					<h5> <i> <b>I-40 Subpart A</b> </i> </h5>
+					<h4 id="partA-m" class="textGreen">PART A (3 OF 10)</h4>
+					<h5> <i> <b>I-40 Subpart A:</b> </i> </h5>
 						<p>
 							The first part of the test would require the applicant to be either the winner of a major international award such as a Nobel Prize, or she should provide documentation of three of the following ten categories to document Extraordinary Ability.
 							<br>
 							<br>
-							<ul class="no-bullets">
+							<ul class="list-styles">
 								<li>
 									<span class="sub-bold">i. LESSER PRIZES OF AWARDS</span>
 									<br>
@@ -441,13 +644,14 @@
 							<b>If the above standards do not readily apply to the beneficiary's occupation, the petitioner may submit comparable evidence to establish the beneficiary's eligibility. </b>The adjudicative trend is that immigration will not give weight to this category unless the occupation does not suit itself to the above ten categories.
 							</p>
 							<br>
-								<h4 class="textGreen">PART B THE FINAL MERITS DETERMINATION</h4>
+								<h4 id="partB-m" class="textGreen">PART B: THE FINAL MERITS DETERMINATION</h4>
 								<i><b>I-140 Part B: The Final Merits Determination</b></i>
 								<br>
 								<p>
 									If you are able to show that you meet at least 3 of the above regulatory criteria, USCIS will then review all of the evidence in the record in its totality to determine if it is more likely than not that you have sustained national or international acclaim and are one of that small percentage who has risen to the very top of the field of endeavor. To satisfy the Final Merits Determination the alien should put their best application together so that immigration can review all of the evidence and approve the case. This part is relatively subjective and USCIS has great discretion in determining whether an alien is successful. The stronger the evidence is in terms of an alien’s achievements in the field compared to others, the more efficiently and accurately USCIS can process the petition. Ultimately it is this risk of failing the Final Merits Determination that can foil what would otherwise be a successful application. To some extent a letter or memo from the attorney can help explain why the alien qualifies to be approved. Realistically, however, the alien should understand that there is risk in this type of application and that even if they feel they clearly qualify in the I-140 part A they nevertheless could be unsuccessful in Part B.
 								</p>
-								<h4 class="textGreen">PART C: FUTURE OFFERS I-140</h4>
+								<br>
+								<h4 id="partC-m" class="textGreen">PART C: FUTURE OFFERS I-140</h4>
 								<p>
 									The alien must prove they are coming to the US to continue to work in their field and that they will not become a public charge.
 								</p>
@@ -462,7 +666,7 @@
 					<div class="green">
 						<a class="collapsed bar" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
 						    <div class="panel-heading" role="tab" id="headingThree">
-						      <h4 class="panel-title">   
+						      <h4 id="ways-m" class="panel-title">   
 						          Ways To Proceed		        
 						      </h4>
 						    </div>
@@ -471,39 +675,40 @@
 			    	<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 				    	<div class="panel-body">
 				    		<div class="container">
-								<h4 class="textGreen">SEND FILE TO USCIS</h4>
-					<i><b>Sending the file to USCIS</b></i>
-					<p>
-						When USCIS receives the file they will either approve the application, deny the application or ask for more information so that they can either approve or deny the application. The request for more information is called Request for Evidence. If the application is approved the applicant can continue to the second part of the application.
-					</p>
-					<br>
-					<h4 class="textGreen">UPON APPROVAL</h4>
-					<i><b>After I-140 Petition is approved Part II:</b></i>
-					<p>
-						After the I-140 is approved the alien will obtain permanent residency one of two ways: Adjustment of Status or Consular Processing
-					</p>
-					<h4 class="textGreen">ADJUSTMENT OF STATUS</h4>
-					<p>
-						Adjustment of Status requires that the alien file the application while they are in the United States in valid non-immigrant status. That means you have to have an unexpired non-immigrant visa in order to file. If that is the case and you have an approved I-140 you should gather evidence that you always complied with your non-immigrant status. This means that for former students you must hold copies of all of your I-20s. If you had other visas such as O-1 visas you should have copies of all approval notices and all prior visas. The law allows adjustment of status when the applicant has never been out of status for even one day. It may be possible that a person is in valid O1 status but that at some point in the past they stayed in the US longer then they were allowed or had another type of status violation. Unless an applicant can document their entire O-1 status it is the opinion of this firm that they can suffer severe delays in finishing up the O1 process and in fact the process can ultimately be denied. Applicants who have been in the US for many years or for those that have not kept copies of all of their immigration paperwork should not attempt Adjustment of Status but should instead seek to process the second part of their visa at their home consulate. <br>
-						An advantage of Adjustment of Status is that once the applicant files to adjust their status they no longer have their former status and now have the new status called “Pending Adjustment of Status.” So, for example, if an applicant has an O-1 visa that is expiring in March and they file their application a month earlier, in February, then they would not need to renew their O-1 visa status so long as they filed in a timely manner.
-						<br>
-						When an applicant files adjustment of status they file three applications. One application is called the application to adjust status. This is called the I-485. The other applications are called application for employment authorization I-765 and application for advanced parole I-131. Once these additional applications are processed the applicant will be free to travel outside of the US and work in the US for whomever they would like. Note that until the advanced parole card is received the applicant cannot travel outside of the US. If the applicant leaves the US before they receive their advanced parole document their application is considered abandoned. Note as well that there is a black out period of anywhere from 3-6 months from when an applicant filed their adjustment of status before they can normally travel. Thus applicants who have extensive travel commitments, or those who have relatives in poor health should not apply for adjustment of status but should instead apply for consular processing.
-					</p>
-					<br>
-					<h4 class="textGreen">CONSULAR PROCESSING (GREEN CARD)</h4>
-					<i><b>Consular Processing</b></i>
-					<p>
-						The second option for finishing the green card process is called Consular Processing. The end result is an interview at the US Consulate in the home country of the applicant. Note that there is generally only one consulate per country that handles the applications. So, for example, in Germany all interviews are held in Frankfurt for immigrant visas. The process is as follows: After the approval of the I-140 (the first part of the application) USCIS will forward the application to the National Visa Center. The timing of this can range from one to three months but can take longer. After the National Visa Center receives the application they will make a fee request by email. The applicant will pay that fee from their bank account and can then move on to the next phase, which is submitting their DS-260 consular form and their civil documents. The civil documents will include documents such as: birth certificates, marriage certificates, divorce decrees, the birth certificates of any children, a copy of their passport biographical (photo) page as well as any evidence of military service. If the applicant has ever been arrested they will need evidence of the disposition of the arrest.
-						<br>
-						After submitting the civil documents and forms DS-260 the National Visa Center has to complete their processing and when the processing is complete they will notify the Consulate to schedule the interview. In general the processing time from USCIS approval of the I-140 until the immigrant interview is normally within the range of 6-8 months. The timing of receiving an immigrant visa after an interview can depend from consulate to consulate and is often a week after the interview. Once the applicant receives their immigrant visa they will pay an additional fee called the ELIS fee. This should be paid before the applicant enters the US. When the consulate issues the visa they also send out a sealed envelope. The applicant will take the unopened sealed envelope with the immigrant visa and will present that to the US CIS officer in the US. That officer will update the computer and stamp the passport. At that point the immigrant is a permanent resident of the US. The green card is only evidence of the status that has already been received. The card is sent in the mail often a month or so after entry into the US.
-						One advantage of consular processing is that the timing is very predicable and is not often longer than that timeline. As opposed to adjustment of status, which can be 4 months but can be more than three years or longer on occasion, the consular processing timeline is very consistent.
-						<br>
-						It should be noted that for consular processing the applicant must maintain non-immigrant visa status until they leave the US to have their immigrant interview. An applicant can travel freely in and out of the United States so long as their current non-immigrant visa allows it, but the only time the benefit of this application accrues to an applicant is after the applicant returns as permanent resident. So, for example, an O-1 visa holder who has not yet been scheduled for their final interview may be faced with either extending their O1 visa in the US to maintain their status, or, in some instances, leaving the US to obtain one more O1 visa even though they might to scheduled for their immigrant visas a few months later. Under that scenario, an applicant can choose to move their immigrant visa interview at a later date, such as 6 months later.
-						<br>
-						Medical Exam: If the applicant is filing by adjustment of status they must have a medical exam from a Civil Surgeon on the approved list of USCIS. The medical exam will make sure the applicant is healthy and does not have an infectious disease. The doctor will give the applicant inoculations unless they can prove that they have already received the inoculations on the US CIS list.
-						<br>
-						If the applicant applies for consular processing the medical exam must take place before the interview. Depending upon the applicant’s travel plans they would need to have the medical exam on a prior trip to their country or they will need to travel to the country with enough time to process the medical exam before the interview.
-					</p>
+								<h4 id="USCIS-m" class="textGreen">SEND FILE TO USCIS</h4>
+								<i><b>Sending the file to USCIS</b></i>
+								<p>
+									When USCIS receives the file they will either approve the application, deny the application or ask for more information so that they can either approve or deny the application. The request for more information is called Request for Evidence. If the application is approved the applicant can continue to the second part of the application.
+								</p>
+								<br>
+								<h4 class="textGreen">UPON APPROVAL</h4>
+								<br>
+								<i><b>After I-140 Petition is approved Part II:</b></i>
+								<p>
+									After the I-140 is approved the alien will obtain permanent residency one of two ways: Adjustment of Status or Consular Processing
+								</p>
+								<h4 id="adustment-m" class="textGreen">ADJUSTMENT OF STATUS</h4>
+								<p>
+									Adjustment of Status requires that the alien file the application while they are in the United States in valid non-immigrant status. That means you have to have an unexpired non-immigrant visa in order to file. If that is the case and you have an approved I-140 you should gather evidence that you always complied with your non-immigrant status. This means that for former students you must hold copies of all of your I-20s. If you had other visas such as O-1 visas you should have copies of all approval notices and all prior visas. The law allows adjustment of status when the applicant has never been out of status for even one day. It may be possible that a person is in valid O1 status but that at some point in the past they stayed in the US longer then they were allowed or had another type of status violation. Unless an applicant can document their entire O-1 status it is the opinion of this firm that they can suffer severe delays in finishing up the O1 process and in fact the process can ultimately be denied. Applicants who have been in the US for many years or for those that have not kept copies of all of their immigration paperwork should not attempt Adjustment of Status but should instead seek to process the second part of their visa at their home consulate. <br>
+									An advantage of Adjustment of Status is that once the applicant files to adjust their status they no longer have their former status and now have the new status called “Pending Adjustment of Status.” So, for example, if an applicant has an O-1 visa that is expiring in March and they file their application a month earlier, in February, then they would not need to renew their O-1 visa status so long as they filed in a timely manner.
+									<br>
+									When an applicant files adjustment of status they file three applications. One application is called the application to adjust status. This is called the I-485. The other applications are called application for employment authorization I-765 and application for advanced parole I-131. Once these additional applications are processed the applicant will be free to travel outside of the US and work in the US for whomever they would like. Note that until the advanced parole card is received the applicant cannot travel outside of the US. If the applicant leaves the US before they receive their advanced parole document their application is considered abandoned. Note as well that there is a black out period of anywhere from 3-6 months from when an applicant filed their adjustment of status before they can normally travel. Thus applicants who have extensive travel commitments, or those who have relatives in poor health should not apply for adjustment of status but should instead apply for consular processing.
+								</p>
+								<br>
+								<h4 id="consular-processing-m" class="textGreen">CONSULAR PROCESSING (GREEN CARD)</h4>
+								<i><b>Consular Processing</b></i>
+								<p>
+									The second option for finishing the green card process is called Consular Processing. The end result is an interview at the US Consulate in the home country of the applicant. Note that there is generally only one consulate per country that handles the applications. So, for example, in Germany all interviews are held in Frankfurt for immigrant visas. The process is as follows: After the approval of the I-140 (the first part of the application) USCIS will forward the application to the National Visa Center. The timing of this can range from one to three months but can take longer. After the National Visa Center receives the application they will make a fee request by email. The applicant will pay that fee from their bank account and can then move on to the next phase, which is submitting their DS-260 consular form and their civil documents. The civil documents will include documents such as: birth certificates, marriage certificates, divorce decrees, the birth certificates of any children, a copy of their passport biographical (photo) page as well as any evidence of military service. If the applicant has ever been arrested they will need evidence of the disposition of the arrest.
+									<br>
+									After submitting the civil documents and forms DS-260 the National Visa Center has to complete their processing and when the processing is complete they will notify the Consulate to schedule the interview. In general the processing time from USCIS approval of the I-140 until the immigrant interview is normally within the range of 6-8 months. The timing of receiving an immigrant visa after an interview can depend from consulate to consulate and is often a week after the interview. Once the applicant receives their immigrant visa they will pay an additional fee called the ELIS fee. This should be paid before the applicant enters the US. When the consulate issues the visa they also send out a sealed envelope. The applicant will take the unopened sealed envelope with the immigrant visa and will present that to the US CIS officer in the US. That officer will update the computer and stamp the passport. At that point the immigrant is a permanent resident of the US. The green card is only evidence of the status that has already been received. The card is sent in the mail often a month or so after entry into the US.
+									One advantage of consular processing is that the timing is very predicable and is not often longer than that timeline. As opposed to adjustment of status, which can be 4 months but can be more than three years or longer on occasion, the consular processing timeline is very consistent.
+									<br>
+									It should be noted that for consular processing the applicant must maintain non-immigrant visa status until they leave the US to have their immigrant interview. An applicant can travel freely in and out of the United States so long as their current non-immigrant visa allows it, but the only time the benefit of this application accrues to an applicant is after the applicant returns as permanent resident. So, for example, an O-1 visa holder who has not yet been scheduled for their final interview may be faced with either extending their O1 visa in the US to maintain their status, or, in some instances, leaving the US to obtain one more O1 visa even though they might to scheduled for their immigrant visas a few months later. Under that scenario, an applicant can choose to move their immigrant visa interview at a later date, such as 6 months later.
+									<br>
+									Medical Exam: If the applicant is filing by adjustment of status they must have a medical exam from a Civil Surgeon on the approved list of USCIS. The medical exam will make sure the applicant is healthy and does not have an infectious disease. The doctor will give the applicant inoculations unless they can prove that they have already received the inoculations on the US CIS list.
+									<br>
+									If the applicant applies for consular processing the medical exam must take place before the interview. Depending upon the applicant’s travel plans they would need to have the medical exam on a prior trip to their country or they will need to travel to the country with enough time to process the medical exam before the interview.
+								</p>
 							</div>
 				      	</div>
 			    	</div>
