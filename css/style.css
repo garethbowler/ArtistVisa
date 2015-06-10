@@ -29,6 +29,21 @@ span.body-bold{
 .list-styles {
 	list-style-type: none;
 }
+footer{
+	font-family: 'lato light';
+	padding-top: 30px;
+	border-top: 2px solid #ddd;
+}
+span.footer-bold{
+	font-family: 'lato black';
+}
+table{
+	width: 100%;
+	
+}
+td.foot-text{
+	font-size: 10px;
+}
 /*======================
 ------COLOR HELPERS-----
 =======================*/
@@ -115,10 +130,16 @@ h6{
 	padding-bottom: 5px;
 }
 
+
 /*======================
 ------SIDEBAR NAV-----
 =======================*/
-
+#sidebar-left li a.red{
+	color: #C74533;
+}
+#sidebar-left li a.red:visited{
+	color: #C74533;
+}
 .affix{
 	position: fixed;
 	top: 20%;
@@ -406,4 +427,14 @@ a.btn-blue{
 	border-radius: 0px;
 	color: #59AFC7;
 	padding: 10px 100px 10px 100px;
+}
+
+/*======================
+----Read more button-----
+=======================*/
+span.article{
+	font-size: 17px;
+}
+span.painters{
+	padding-right: 33px;
 }

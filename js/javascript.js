@@ -23,16 +23,7 @@ $(document).ready(function() {
            
         } 
         else if(fixed == true){
-            if( $window.scrollTop() >= $('#sidebar-left').offset().top - parseInt($('#sidebar-left').css('top'))){
-                $('#sidebar-left').css({top: '20%','left': '-1%',
-                    'position': 'fixed'});
-              
-            }
-            else if( $window.scrollTop() <= distance){
-                $('#sidebar-left').css({top: '20%', 'left': '-5%',
-                    'position': 'absolute'});
-              
-            }
+            $('#sidebar-left').css({top: '20%','left': '-1%','position': 'fixed'});
         }
     }); 
 
@@ -54,6 +45,17 @@ $(document).ready(function() {
         } 
         $('#Stage').animate({ height: '0px', opacity: '0', display: 'none'}, 'slow');
     }, 8000);
+    if($window.width()<995 && window.location.href.indexOf('index.html') != -1){
+        setTimeout(timer, 8600);
+        
+    }
+    function timer(){
+        $('#collapseWelcome').collapse('toggle');
+        $('#collapseProcess').collapse('toggle').addClass('in');
+
+        // $('#collapseTwo').collapse('show');
+        // $('#collapseOne').collapse('hide');
+    }
 
 
     if($(window).width()<995){
@@ -126,12 +128,7 @@ function showHide(){
     ];
 
 
-    function timer(){
-        $('#collapseWelcome').collapse('hide');
-        $('#collapseProcess').collapse('show');
-        $('#collapseTwo').collapse('show');
-        $('#collapseOne').collapse('hide');
-    }
+
     // function scrollTo(hash){
     //     location.hash = '#' + hash;
     // }
@@ -154,12 +151,12 @@ function showHide(){
         
     // }
 
-    if(window.location.href.indexOf(homeURLGreen) != -1 || window.location.href.indexOf(homeURLPeach) != -1){
-        $('#collapseProcess').collapse('show');
-    }
+    // if(window.location.href.indexOf(homeURLGreen) != -1 || window.location.href.indexOf(homeURLPeach) != -1){
+    //     $('#collapseProcess').collapse('show');
+    // }
     // HOME URL CHECK
 
-    else if($.grep(homeURLWelcome, function(str) { return location.href.indexOf(str) > -1; }).length > 0){
+    if($.grep(homeURLWelcome, function(str) { return location.href.indexOf(str) > -1; }).length > 0){
         $('#collapseWelcome').collapse('show');
         $('#collapseGreenCard').collapse('hide');
         // $('#collapseProcess').collapse('hide');
