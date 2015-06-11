@@ -91,7 +91,17 @@ function showHide(){
         '0-1Visa.html#employers-m',
         '0-1Visa.html#agent-m',
     ];
-    var visaURLWho = ['0-1Visa.html#qualify-m'];
+    var visaURLWho = [
+        '0-1Visa.html#qualify-m',
+        "0-1Visa.html#awards-m",
+        "0-1Visa.html#leading-m",
+        "0-1Visa.html#press-rec-m",
+        "0-1Visa.html#leading-role-m",
+        "0-1Visa.html#commercial-m",
+        "0-1Visa.html#significance-m",
+        "0-1Visa.html#salary-m",
+        "0-1Visa.html#peer-advisory-m"
+    ];
     var visaURLPrep = [
         '0-1Visa.html#preparation-m', 
         '0-1Visa.html#letters-m', 
