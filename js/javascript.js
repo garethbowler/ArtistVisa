@@ -51,7 +51,7 @@ $(document).ready(function() {
     }
     function timer(){
         $('#collapseWelcome').collapse('toggle');
-        $('#collapseProcess').collapse('toggle').addClass('in');
+        $('#collapseProcess').collapse('toggle');
 
         // $('#collapseTwo').collapse('show');
         // $('#collapseOne').collapse('hide');
