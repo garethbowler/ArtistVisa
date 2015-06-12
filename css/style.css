@@ -44,6 +44,19 @@ table{
 td.foot-text{
 	font-size: 10px;
 }
+td.text-disclaimer a{
+	font-size: 10px;
+	color: black;
+	text-decoration: none;
+}
+td.text-disclaimer a:hover{
+	font-family: 'lato black';
+}
+@media(max-width: 995px){
+	td.text-disclaimer a:hover{
+	font-family: 'lato light';
+}
+}
 /*======================
 ------COLOR HELPERS-----
 =======================*/
