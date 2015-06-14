@@ -31,7 +31,7 @@ span.body-bold{
 }
 footer{
 	font-family: 'lato light';
-	padding-top: 30px;
+	padding-top: 10px;
 	border-top: 2px solid #ddd;
 }
 span.footer-bold{
@@ -39,21 +39,45 @@ span.footer-bold{
 }
 table{
 	width: 100%;
-	
+	display: table;
+}
+tr{
+	display: table-row;
+}
+td{
+	vertical-align: top;
+}
+td.text-left{
+	display:table-cell;
+    width:25%;
+}
+td.text-center{
+	display:table-cell;
+    text-align:center;
+    width:50%;
+}
+td.text-right{
+	display:table-cell;
+    width:25%;
 }
 td.foot-text{
 	font-size: 10px;
 }
-td.text-disclaimer a{
+p.text-disclaimer{
 	font-size: 10px;
+	font-family: 'lato light';
+	text-align: center;
+}
+p.text-disclaimer a{
 	color: black;
 	text-decoration: none;
+	font-family: 'lato black';
 }
-td.text-disclaimer a:hover{
+p.text-disclaimer a:hover{
 	font-family: 'lato black';
 }
 @media(max-width: 995px){
-	td.text-disclaimer a:hover{
+	p.text-disclaimer a:hover{
 	font-family: 'lato light';
 }
 }
@@ -275,7 +299,7 @@ ul#nav{
 	color: blue;
 }
 .dropdown-icon{
-    background-color: #58595B;
+    background-color: #757577;
     padding: 1px 9px 1px 9px !important;
     margin-top: 15px;
   }
